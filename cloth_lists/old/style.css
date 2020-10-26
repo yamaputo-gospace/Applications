@@ -1,0 +1,90 @@
+body{
+  background-color: #F5F5F5;
+  margin: 0px;
+  min-height: 100vh;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+header{
+  border-bottom: solid 1px 	#000000;
+}
+@media screen and (min-width:1000px) { 
+  .header-box{
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    padding-top: 15px;
+  }
+  .header-box .header-logo{
+    float: left;
+    margin-left: 20px;
+  }
+  .header-box .header-mypage{
+    text-align: right;
+    margin-right: 20px;
+  }
+  .header-box .header-mypage a{
+    text-decoration: none;
+    color: #000000;
+  }
+  .header-box .header-mypage .header-user-icon{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+  }
+  main{
+    display: flex;
+    margin: 30px auto 0px;
+    width: 1000px;
+  }
+  main .l-content{
+    width: 70%;
+    background-color: bisque;
+  }
+  main .l-side{
+    width: 30%;
+    height: 100%;
+    background-color: oldlace;
+  }
+  .add-btn{
+    position: fixed;
+    background: #FC9706;
+    bottom: 32px;
+    right: 32px;
+    width: 160px;
+    height: 160px;
+    font-size: 22px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .add-btn .add-btn-word{
+    text-align: center;
+    margin: 19% auto;
+  }
+  .add-btn .add-btn-word .camera-icon{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+  }
+  .grouping-container{
+    margin: auto 5px;
+    border: solid 1px#000000;
+  }
+  .grouping-container .grouping-container-box span{
+    display: block;
+  }
+  footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #222222;
+    color: #ffffff;
+    height: 40px;
+  }
+}

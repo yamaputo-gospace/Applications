@@ -1,0 +1,40 @@
+header {
+    background: rgb(137, 187, 137);
+    font-size: 0.9rem;
+    width: 100vw;
+    margin-left: calc( ( 100% - 100vw ) / 2 );
+	margin-right: calc( ( 100% - 100vw ) / 2 );
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16);
+    box-sizing: border-box;
+}
+.header-box{
+    width: 900px;
+    height: 70px;
+    margin: auto;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+.header-logo{
+    float: left;
+}
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-logo-icon img{
+    height: 35px;
+    width: 35px;
+}
+.header-mypage{
+    text-align: right;
+}
+.header-mypage a{
+    text-decoration: none;
+    color: #000000;
+}
+.header-user-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}

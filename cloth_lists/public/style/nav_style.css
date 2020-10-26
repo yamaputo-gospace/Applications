@@ -1,0 +1,30 @@
+nav {
+    margin-top: 16px;
+}
+.detail_search {
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 2px;
+}
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.detail_search .control-label {
+    padding-left: 4px;
+}
+.btn-clear {
+    background: #AAAAAA;
+    color: #ffffff;
+    width: 70px;
+    margin: auto auto auto 16.6666px;
+}
+.btn-submit {
+    width: 70px;
+    margin: auto 16.6666px auto auto;
+}
+.button-box {
+    display: flex;
+    padding-bottom: 10px;
+}
