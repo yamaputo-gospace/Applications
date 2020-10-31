@@ -28,11 +28,11 @@
         <div class="form-group">
             <label class="control-label">シチュエーション</label>
             <div class="radio">
-                <label><input type="checkbox" name="casual" value="1" checked="checked">カジュアル</label>
-                <label><input type="checkbox" name="suit" value="1">フォーマル</label>
-                <label><input type="checkbox" name="loungewear" value="1">ホームウェア</label>
-                <label><input type="checkbox" name="sports" value="1">スポーツ</label>
-                <label><input type="checkbox" name="leisure" value="1">レジャー</label>
+                <label><input type="checkbox" name="situation" value="casual" checked="checked">カジュアル</label>
+                <label><input type="checkbox" name="situation" value="suit">フォーマル</label>
+                <label><input type="checkbox" name="situation" value="loungewear">ホームウェア</label>
+                <label><input type="checkbox" name="situation" value="sports">スポーツ</label>
+                <label><input type="checkbox" name="situation" value="leisure">レジャー</label>
             </div>
         </div>
         <!-- ジャンル -->
@@ -133,7 +133,7 @@
             <label class="control-label">サイズを選択</label>
             <div class="radio">
                 @for($i=23; $i<=30; $i=$i+0.5)
-                <label><input type="checkbox" name="radio">{{$i}}</label>
+                <label><input type="checkbox" name="shoe_size" value="{{$i}}">{{$i}}</label>
                 @endfor
             </div>
         </div>
